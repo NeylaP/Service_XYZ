@@ -17,9 +17,9 @@ class CreateClientesTable extends Migration
             $table->id();
             $table->string("nombre");
             $table->string("imagen");
-            $table->integer("cedula");
+            $table->string("cedula");
             $table->string("email");
-            $table->integer("telefono");
+            $table->string("telefono");
             $table->text("observaciones");
             $table->timestamps();
         });
